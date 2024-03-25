@@ -14,7 +14,7 @@ const theme = computed(() => (isDark.value ? "dark" : "light"));
 console.log(theme.value)
 </script>
 
-<div :class="theme === 'dark' ? 'dark' : 'light'">
+<div :class="theme">
 Hello World
 </div>
 
